@@ -312,12 +312,12 @@ function sumUserPostLikes(user) {
   //each post object has an integer property called 'likes'
   //sum together the likes from all the post objects
   //return the sum
-   var numLikes = function(sum,like) {
+    numLikes = function(sum,like) {
     return sum + like.likes;
   };
 
-  var answer = user.posts.reduce(numLikes, 0);
-  return answer;
+  var numLikes = user.posts.reduce(numLikes, 0);
+  return numLikes;
 }
 
 function addCalculateDiscountPriceMethod(storeItem) {
