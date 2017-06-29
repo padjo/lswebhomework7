@@ -3,14 +3,14 @@
 ## Instructions
 ---
 1. Feynman Writing Prompts - Write out explanations of the following concepts like you are explaining it to a 12 year old.  Doing this will help you quickly discover any holes in your understanding.  Ask your questions on Slack.
-		
-	* Array
-	* Object
-	* Method
+
+	* Array : An array is a way of grouping things together into a type of list. examples, names, objects and so on
+	* Object : An object is another group of things but has key value pair that you can access through the key to get the value . Typically object contain data and functions/methods.
+	* Method : A method is another name for a function that exists in the object and can work on data that exists in  the  object.
 
 
 3. Fork and clone this repo.  When you need to commit use the following commands.
-		
+
 	* git status
 	* git add --all
 	* git status
@@ -18,7 +18,7 @@
 	* git push origin master
 
 
-4. Move into the `lswebhomework7` folder in your terminal and run `npm install` 
+4. Move into the `lswebhomework7` folder in your terminal and run `npm install`
 
 
 4. Make the tests pass! (Use `npm test`)
